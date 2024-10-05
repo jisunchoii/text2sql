@@ -7,12 +7,12 @@ from langchain_community.embeddings import BedrockEmbeddings
 from langchain_core.documents import Document
 
 # OpenSearch 정보를 설정합니다.
-opensearch_user_id = "techcamp2024"
-opensearch_user_password = "Passw0rd1!"
-opensearch_domain_endpoint = "https://search-genai-techcamp-2024-fa7cryrwnwnnjdturscmrnzhnu.us-west-2.es.amazonaws.com"
+opensearch_user_id = "userid"
+opensearch_user_password = "userpw"
+opensearch_domain_endpoint = "endpoint"
 
-opensearch_domain_name = "genai-techcamp-2024"
-opensearch_index_name = "genai-techcamp-2024-index"
+opensearch_domain_name = "domainname"
+opensearch_index_name = "indexname"
 
 
 # OpenSearch Client 를 생성합니다.
